@@ -1,23 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App renders correctly 1`] = `
-<div>
-  <h2>
+<div
+  className="container container-xs d-flex flex-column px-5 pb-4 position-relative"
+>
+  <h2
+    className="mt-4 d-flex justify-content-between"
+  >
     Gift Giver
+    <Button
+      active={false}
+      className="btn-add"
+      disabled={false}
+      id="btn-add"
+      onClick={[Function]}
+      type="button"
+      variant="primary"
+    >
+      Add Gift
+    </Button>
   </h2>
   <div
     className="gift-list"
   />
-  <Button
-    active={false}
-    className="btn-add"
-    disabled={false}
-    id="btn-add"
-    onClick={[Function]}
-    type="button"
-    variant="primary"
-  >
-    Add Gift
-  </Button>
 </div>
 `;

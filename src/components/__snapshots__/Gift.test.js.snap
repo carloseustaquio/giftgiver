@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Gift rendres properly 1`] = `
-<div>
+<div
+  className="gift mt-2 mb-4"
+>
   <Form
     inline={false}
   >
@@ -32,13 +34,13 @@ exports[`Gift rendres properly 1`] = `
   </Form>
   <Button
     active={false}
-    className="btn-remove"
+    className="btn-remove btn-danger"
     disabled={false}
     onClick={[Function]}
     type="button"
     variant="primary"
   >
-    Remove Gift
+    Delete
   </Button>
 </div>
 `;

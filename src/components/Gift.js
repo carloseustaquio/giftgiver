@@ -12,7 +12,7 @@ export default class Gift extends Component {
     
     render() {
         return (
-            <div>
+            <div className="gift mt-2 mb-4">
                 <Form>
                     <FormGroup>
                         <FormLabel>Person</FormLabel>
@@ -31,8 +31,8 @@ export default class Gift extends Component {
                 </Form>
                 <Button 
                 onClick={() => this.props.removeGift(this.props.gift.id)} 
-                className="btn-remove">
-                    Remove Gift
+                className="btn-remove btn-danger">
+                    Delete
                 </Button>
             </div>
         )
