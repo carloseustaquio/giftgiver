@@ -1,3 +1,8 @@
+# GiftGiver
+React project to learn automated testing using Jest, Enzyme, and TDD.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
