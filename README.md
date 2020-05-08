@@ -6,6 +6,6 @@ Simple project that lets you create a list of gifts and people. Not too interest
 ### See the result! :point_down:
 https://carloseustaquio.github.io/giftgiver/
 
-### Demo:
+### A little demo on how the tests are working:
 ![demo](./demo.gif)
 
