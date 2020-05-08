@@ -7,5 +7,5 @@ Simple project that lets you create a list of gifts and people. Not too interest
 https://carloseustaquio.github.io/giftgiver/
 
 ### A little demo on how the tests are working:
-![demo](./demo.gif)
+![demo](./demo2.gif)
 
